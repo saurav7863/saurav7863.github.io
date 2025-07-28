@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Researcher Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <div class="nav-brand">AI&nbsp;Researcher</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-heading">Hello, I'm <span class="accent">Your&nbsp;Name</span></h1>
+                <p class="hero-subheading">I build advanced deep learning solutions</p>
+                <p class="hero-dynamic"><span id="typed"></span></p>
+                <a href="#contact" class="btn">Get in touch</a>
+            </div>
+        </section>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About&nbsp;Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm an <strong>AI researcher</strong> based in Germany with a passion for
+                    solving complex problems. My work focuses on designing and
+                    training deep learning architectures capable of tackling
+                    challenging tasks across vision, language and structured
+                    data domains. Deep learning models are multilayered
+                    networks that can simulate complex decision making;
+                    by leveraging large datasets and thoughtful network
+                    design I create systems that learn to interpret data at
+                    multiple levels of abstraction. When I'm not coding or
+                    experimenting with new models, you'll find me mentoring
+                    students and exploring the latest research.
+                </p>
+                <p>
+                    Over the past several years I've authored numerous
+                    publications and open‑sourced projects. I'm always keen to
+                    collaborate, whether it's building custom neural networks,
+                    researching novel architectures or deploying models into
+                    production. Reach out if you have an interesting problem
+                    that machine learning might solve.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="progress">
+                        <span class="progress-bar" style="width: 95%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Deep Learning</h3>
+                    <div class="progress">
+                        <span class="progress-bar" style="width: 92%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Computer Vision</h3>
+                    <div class="progress">
+                        <span class="progress-bar" style="width: 88%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Natural Language Processing</h3>
+                    <div class="progress">
+                        <span class="progress-bar" style="width: 85%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Reinforcement Learning</h3>
+                    <div class="progress">
+                        <span class="progress-bar" style="width: 80%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Data Engineering</h3>
+                    <div class="progress">
+                        <span class="progress-bar" style="width: 75%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured&nbsp;Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assets/network.png" alt="Graph representation project" class="project-image">
+                    <div class="project-info">
+                        <h3>Graph&nbsp;Neural&nbsp;Networks</h3>
+                        <p>A research exploration into applying graph neural networks to model
+                        complex relationships within data. The project includes
+                        custom message passing layers and extensive experiments.</p>
+                        <a href="https://github.com/saurav7863" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/network.png" alt="Vision transformer project" class="project-image">
+                    <div class="project-info">
+                        <h3>Vision&nbsp;Transformers</h3>
+                        <p>Implementations of transformer architectures for
+                        computer vision tasks. This repository demonstrates
+                        innovative approaches to image classification and object
+                        detection using attention mechanisms.</p>
+                        <a href="https://github.com/saurav7863" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/network.png" alt="Natural language processing project" class="project-image">
+                    <div class="project-info">
+                        <h3>Language&nbsp;Models</h3>
+                        <p>A suite of language models designed for text
+                        generation and understanding. Includes work on
+                        transformers and recurrent architectures tailored for
+                        various NLP applications.</p>
+                        <a href="https://github.com/saurav7863" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="section research">
+        <div class="container">
+            <h2 class="section-title">Research</h2>
+            <div class="research-content">
+                <p>
+                    My research journey spans a diverse set of topics within
+                    artificial intelligence and machine learning. I am
+                    particularly interested in the design of novel neural
+                    architectures that can generalise across tasks and data
+                    modalities. At the core of this work is the idea that
+                    deep learning involves stacking many layers of neurons to
+                    model increasingly abstract representations.
+                </p>
+                <p>
+                    Some of my recent publications investigate ways of
+                    improving stability and interpretability in deep networks.
+                    Other papers explore self‑supervised learning, where
+                    models learn from unlabeled data by predicting missing
+                    information. You can find a list of my papers on
+                    <a href="https://scholar.google.com/citations?user=3MXhau8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google&nbsp;Scholar</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get&nbsp;in&nbsp;Touch</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send&nbsp;Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your&nbsp;Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
